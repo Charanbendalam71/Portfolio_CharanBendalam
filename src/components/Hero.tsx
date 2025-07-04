@@ -80,7 +80,7 @@ const Hero: React.FC = () => {
                 <div className={`relative bg-white dark:bg-gray-800 p-2 rounded-full shadow-2xl transition-all duration-500 ${isImageHovered ? 'scale-105 shadow-3xl' : ''}`}>
                   <div className={`relative overflow-hidden rounded-full transition-all duration-500 ${isImageHovered ? 'scale-110' : ''}`}>
                     <img
-                      src="/public/Charan_ Passport.jpg"
+                      src="/Charan_ Passport.jpg"
                       alt="Charan Bendalam"
                       className={`w-80 h-80 md:w-96 md:h-96 rounded-full object-cover shadow-lg transition-all duration-500 ${isImageHovered ? 'brightness-110 contrast-110' : ''}`}
                     />
